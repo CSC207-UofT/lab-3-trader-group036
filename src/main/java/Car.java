@@ -1,6 +1,6 @@
 public class Car implements Tradable, Drivable{
-    private float maxSpeed;
-    private float price;
+    private int maxSpeed;
+    private int price;
     private String name;
 
     public Car(String name){
