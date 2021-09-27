@@ -37,5 +37,5 @@ public class DragonTest {
     public void TestGetPrice() {
         assertEquals(100000, d.getPrice());
     }
-aaa
+aaaaaaaaaaa
 }
