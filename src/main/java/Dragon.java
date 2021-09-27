@@ -39,5 +39,4 @@ public class Dragon implements Drivable, Domesticatable, Tradable{
         String id = super.toString();
         return id + " (Max speed: " + this.maxSpeed +")" + "(Color:" + this.color + ")" + "(damage:" + this.damage + ")";
     }
-    aaaa
 }
