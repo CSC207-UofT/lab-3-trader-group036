@@ -8,7 +8,7 @@ public class DragonTest {
 
     @Before
     public void setUp() throws Exception {
-        d = new Dragon();
+        d = new Dragon("gold", 10, 10);
     }
 
     @Test(timeout = 50)
