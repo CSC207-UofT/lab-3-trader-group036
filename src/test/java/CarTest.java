@@ -3,39 +3,39 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 
-public class DragonTest {
-    Dragon d;
+public class CarTest {
+    Car c;
 
     @Before
     public void setUp() throws Exception {
-        d = new Dragon("gold", 10, 10);
+        c = new Car("BMW");
     }
 
     @Test(timeout = 50)
-    public void TestSound() {
-        assertEquals("Neigh!", d.sound());
+    public void TestName() {
+        assertEquals("BMW", c.getName());
     }
 
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(1, d.getMaxSpeed());
+        assertEquals(10, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
-        d.upgradeSpeed();
-        assertEquals(20000, d.getMaxSpeed());
+        c.upgradeSpeed();
+        assertEquals(20, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
-        d.downgradeSpeed();
-        assertEquals(0, d.getMaxSpeed());
+        c.downgradeSpeed();
+        assertEquals(0, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(100000, d.getPrice());
+        assertEquals(100, c.getPrice());
     }
 
 }

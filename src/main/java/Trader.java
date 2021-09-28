@@ -99,7 +99,7 @@ public class Trader {
                 new Horse(),
                 // TODO: Add Tradable objects here!
 
-                new Tractor()
+                new Car("BMW")
 
         );
 
