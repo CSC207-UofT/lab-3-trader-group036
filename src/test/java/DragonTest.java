@@ -13,12 +13,12 @@ public class DragonTest {
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("Neigh!", d.sound());
+        assertEquals("HHHHHOOOOOO!", d.sound());
     }
 
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(1, d.getMaxSpeed());
+        assertEquals(10000, d.getMaxSpeed());
     }
 
     @Test(timeout = 50)
