@@ -10,7 +10,7 @@ public class Car implements Tradable, Drivable{
     }
 
     public String getName(){
-        return super.toString() + ": " + name;
+        return name;
     }
 
     @Override
