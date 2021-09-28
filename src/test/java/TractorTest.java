@@ -8,7 +8,7 @@ public class TractorTest {
 
     @Before
     public void setUp() throws Exception {
-        s = new Tractor();
+        t = new Tractor();
     }
 
     @Test(timeout = 50)
