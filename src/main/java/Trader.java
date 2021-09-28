@@ -96,8 +96,13 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
+                new Horse(),
                 // TODO: Add Tradable objects here!
+<<<<<<<<< Temporary merge branch 1
+                new drugdealer()
+=========
+                new Tractor()
+>>>>>>>>> Temporary merge branch 2
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
