@@ -9,6 +9,7 @@ public class Dragon implements Drivable, Domesticatable, Tradable{
         this.maxSpeed = 10000;
     }
 
+
     @Override
     public String sound() {
         return "HHHHHOOOOOO!";

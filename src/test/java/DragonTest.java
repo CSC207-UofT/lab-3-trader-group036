@@ -8,7 +8,7 @@ public class DragonTest {
 
     @Before
     public void setUp() throws Exception {
-        d = new Dragon();
+        d = new Dragon("Red", 999, 9999);
     }
 
     @Test(timeout = 50)
@@ -37,9 +37,5 @@ public class DragonTest {
     public void TestGetPrice() {
         assertEquals(100000, d.getPrice());
     }
-<<<<<<< HEAD
-aaaaaaaaaaa
-=======
 
->>>>>>> c5d5a9f1bb0014a81adcb95b78128b1a7b3d405a
 }
